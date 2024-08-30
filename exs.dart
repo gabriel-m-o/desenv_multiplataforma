@@ -38,4 +38,25 @@ import 'dart:math';
 //   print(celsius);  
 // }
 
-//
+//ex23 previsao do tempo
+// void main(List<String> args) {
+//   var pressaoAtm;
+//   var umidade;
+//   switch([pressaoAtm, umidade]) {
+//     case ['caindo', 'umido']:
+//       print('vai chover');
+//     case ['subindo', 'seco']:
+//       print('vai ensolarar');
+//     default: print('parcialmente nublado');
+//   }
+// }
+
+//ex24 detetive
+void main(List<String> args) {
+  var alibi, evidencia;
+  switch([alibi, evidencia]) {
+    case ['solido']: print('inocente');
+    case ['sem alibi', 'existe']: print('sulpado');
+    default: print('mais investigação é necessária');
+  }
+}
