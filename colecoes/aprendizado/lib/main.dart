@@ -5,6 +5,13 @@ void main() {
       appBar: AppBar(
       title: const Text('minhas imagens'), 
       ),
+      floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.add_alarm),
+        onPressed: () {
+          print("Hello.\n");
+        },
+      ),
     )
   );
+  runApp(app);
 }
